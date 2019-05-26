@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/minty/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9NlqO4dP5KfioUGS568UFwM3lbWf3Uj3Qb7FBHuIuhLoDp3ZgAqPE1/MYLEBPZYM" crossorigin="anonymous">
+    <title>Ahyun's page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">멋쟁이 사자처럼 7기 이아현</a>
+            <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarColor01"
+                aria-label="Toggle navigation" type="button" data-target="#navbarColor01" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">IT서비스 소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About me</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+    <div class="container">
+
+        <p class="card-text">
+            <div class="card border-primary mb-3" style="max-width: 100rem; height:25rem;">
+                <div class="card-header">지원할 때 작성한 IT 서비스</div>
+                <div class="card-body">
+                    <h4 class="card-title">수학용어사전 어플리케이션 or 웹페이지</h4><br>
+                    <h4>제가 지원할 때 처음 생각했던 it서비스는 수학용어사전입니다. 현재 응용수학과에 재학 중인 저는 독립 심화 연구 수업을 통해 학생들을 위한
+                        수학용어사전을 제작 중에 있습니다. 현재 Play Store에는 학생들을 위한 수학용어사전이 없어서 이것을 바탕으로 접근성이 더 뛰어난 사전을 제작해보면 좋겠다고
+                        생각했습니다. 현재는 애플리케이션에 대한 배경지식이 없어 당장 구현할 수는 없겠지만 이후 기회가 된다면 제작해보고 싶습니다.</h4>
+                </div>
+            </div>
+            <br><br>
+            <div class="card border-secondary mb-3" style="max-width: 100rem; height: 25rem;">
+                <div class="card-header">About me</div>
+                <div class="card-body">
+                    <h4 class="card-title">멋쟁이 사자처럼 7기</h4><br>
+                    <h4 class="card-title">저는 현재 경희대학교 응용수학과 3학년에 재학 중입니다. 고등학교에서 대학진학 준비를 하면서 컴퓨터를 배워보고 싶다는 생각을 했었습니다.
+                        자연과학을 배우는 것만으로는 취업에 어려움이 있을 수 있다는 막연한 두려움 때문이었습니다. 이후 대학에 들어와 교양으로 Python을 배우고 난 이후에는 프로그래밍 자체에
+                        대한 흥미와 관심을 갖게 되었습니다. 운 좋게 ‘멋쟁이 사자처럼‘에 알게 되어 활동할 수 있게 된 것이 저에게 좋은 기회가 될 수 있을 것이라고 생각합니다. 멋쟁이 사자처럼
+                        7기로서 다양한 것을 배우고 경험할 수 있도록 노력하겠습니다.</h4>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
